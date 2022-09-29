@@ -12,7 +12,7 @@
     <section class="header">
         <!-- Cleaned up the text in the title -->
          <h1>Horiseon<span class="seo"></span></h1>
-        <!-- changed following section element to a nav element as this looks like a navigation section -->
+        <!-- changed following section element to a nav element as this is actually a navigation bar -->
         <nav>
             <ul>
                 <li>
@@ -26,11 +26,12 @@
                 </li>
             </ul>
         </nav>
+        
     </section>
     <div class="hero"></div>
     <section class="content">
         <!-- put alt descriptions in image tags for screen readers in these three sections -->
-        <section class="search-engine-optimization">
+        <section id="search-engine-optimization" class="search-engine-optimization"> <!--added "search engine optimization id to fix a broken href in the nav, and then had to add "search engine optimization" class to give CSS something to select-->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A desk with fresh coffee, a magnifying glass, highlighters, and a notebook"/>
             <h2>Search Engine Optimization</h2>
             <p>
@@ -54,122 +55,28 @@
     </section>
     <section class="benefits">
         <!-- created a class attribute called whitetext to condense three CSS selectors -->
-        <!-- added alt captions to images -->
-        <div class="benefit-lead whitetext">
+        <!-- added alt captions to images for users using screen readers -->
+        <section class="benefit-lead whitetext">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" 
             alt="a small black and white abstract emblem with half a gear, an arrow, and a dollar sign"/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <div class="benefit-brand whitetext">
+        </section>
+        <section class="benefit-brand whitetext">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" 
             alt= "a small black and white abstract emblem of a torso with a lightbulb in place of a head"/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit-cost whitetext">
+        </section>
+        <section class="benefit-cost whitetext">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png"
             alt= "a small black and white abstract emblem of a gear with dollar signs" />
 
-            <p>
-                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
-            </p>
-        </div>
-    </section>
-    <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
-        </p>
-    </div>
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- THE OLD DRAFT
-<!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
-</head>
-
-<body>
-    <header class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <div class="hero"></div>
-     <section class="content">
-        <section id="search-engine-optimization"class="search-engine-optimization margins">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A desk with fresh coffee, a magnifying glass, highlighters, and a notebook"/>
-            <h2>Search Engine Optimization</h2>
-            <p>
-                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-            </p>
-
-        <section id="online-reputation-managment" class="online-reputation-management margins">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="an over the shoulder view of a screen showing a graph of reputation growing over time" />
-            <h2>Online Reputation Management</h2>
-            <p>
-                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
-            </p>
-        <section id="social-media-marketing" class="social-media-marketing margins">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="a view from above of a crowded conference table with many card stock cutouts of words and sybols related to social media scattered about" />
-            <h2>Social Media Marketing</h2>
-            <p>
-                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-            </p>
-        </section>
-    </section> 
-    <section class="benefit">
-        <section class="benefit">
-            <h3>Lead Generation</h3>
-            <img  src="./assets/images/lead-generation.png" alt="a small black and white abstract emblem with half a gear, an arrow, and a dollar sign" />
-            <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
-            </p>
-        </section>
-        <section class="benefit">
-            <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" alt= "a small black and white abstract emblem of a torso with a lightbulb in place of a head"/>
-            <p>
-                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
-            </p>
-        </section>
-        <section class="benefit">
-            <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" alt= "a small black and white abstract emblem of a gear with dollar signs"/>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
@@ -183,4 +90,4 @@
     </section>
 </body>
 
-</html> -->
+</html>

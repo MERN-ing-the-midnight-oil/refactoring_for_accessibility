@@ -92,6 +92,7 @@ p {
 .whitetext {
     margin-bottom: 32px;
     color: #ffffff;
+    
 }
 
 .benefit-lead h3 {
@@ -108,7 +109,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
